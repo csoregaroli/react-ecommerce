@@ -9,11 +9,12 @@ import Button from '../Button/Button'
 import CartItem from '../CartItem/CartItem'
 
 const CartDropdown = () => {
-    const { cartItems } = useContext(CartContext)
+    const { cartItems, isCartOpen, setIsCartOpen } = useContext(CartContext)
     const navigate = useNavigate()
 
     const goToCheckout = () => {
         navigate('/checkout')
+        setIsCartOpen(!isCartOpen)
     }
 
     return (
