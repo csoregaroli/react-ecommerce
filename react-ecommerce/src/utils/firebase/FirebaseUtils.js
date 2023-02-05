@@ -11,7 +11,7 @@ import {
 import { getFirestore, doc, getDoc, setDoc } from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCBMQUN_hwL5cPENaBqEv88kG4OEbkbXiU",
+  apiKey: "",
   authDomain: "crwn-db2-4ad7d.firebaseapp.com",
   projectId: "crwn-db2-4ad7d",
   storageBucket: "crwn-db2-4ad7d.appspot.com",
